@@ -1,0 +1,91 @@
+body {
+    background-color:antiquewhite
+        
+        
+}
+
+.header {
+  background-color:dimgrey;
+  padding: 15px;
+  text-align: center;
+  font-size: 35px;
+  font-family: sans-serif;
+  color: white;
+  
+}
+
+.secondheader{
+    background-color:whitesmoke;
+    padding: 20px;
+    text-align:center;
+    font-size:20px;
+    font-family: sans-serif;
+    color: black;
+    
+
+    
+}
+      
+.nav {
+    float:left;
+    text-align: center;
+    font-size: 20px;
+    width: 20%;
+    background-color:skyblue;
+    height: 700px;
+}
+
+.main {
+    float:left;
+    width: 80%;
+    font-size: 25px;
+    
+    height: 700px;
+    background-image: url(food3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  
+}
+
+li {
+    font-family:sans-serif;
+    font-size: 15px;
+    display:block;
+    border-style:solid;
+    border-color: dimgrey;
+    background-color:antiquewhite;
+    padding:5px; 
+    width:auto;
+}
+
+li:hover {
+    background-color:whitesmoke;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+}
+.linkMain {
+    
+    font-family:sans-serif;
+    font-size: 20px;
+    display:block;
+    border-style:solid;
+    border-color: dimgrey;
+    background-color:ghostwhite;
+    padding:10px; 
+    width:auto;
+}
+
+.linkMain:hover {
+    
+    font-family:sans-serif;
+    font-size: 20px;
+    display:block;
+    border-style:solid;
+    border-color: black;
+    background-color:lightskyblue;
+    padding:10px; 
+    width:auto;
+}
