@@ -1,5 +1,5 @@
 body {
-    background-color:antiquewhite
+    background-color:black;
         
         
 }
@@ -33,13 +33,17 @@ body {
     width: 20%;
     background-color:skyblue;
     height: 700px;
+    background-image: url(wood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .main {
     float:left;
     width: 80%;
     font-size: 25px;
-    
+    font-family:sans-serif;
     height: 700px;
     background-image: url(food3.jpg);
     background-repeat: no-repeat;
@@ -58,6 +62,7 @@ li {
     background-color:antiquewhite;
     padding:5px; 
     width:auto;
+    
 }
 
 li:hover {
@@ -73,9 +78,13 @@ li:hover {
     display:block;
     border-style:solid;
     border-color: dimgrey;
-    background-color:ghostwhite;
-    padding:10px; 
+    background-color:antiquewhite;
+    padding:5px; 
     width:auto;
+    background-image: url(wood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .linkMain:hover {
@@ -86,6 +95,6 @@ li:hover {
     border-style:solid;
     border-color: black;
     background-color:lightskyblue;
-    padding:10px; 
+    padding:5px; 
     width:auto;
 }
