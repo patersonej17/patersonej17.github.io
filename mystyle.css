@@ -1,5 +1,7 @@
 body {
     background-color:black;
+    margin:0px;
+    
         
         
 }
@@ -48,6 +50,8 @@ body {
     background-image: url(food3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+  
+   
     
     
   
@@ -55,12 +59,12 @@ body {
 
 li {
     font-family:sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     display:block;
     border-style:solid;
     border-color: dimgrey;
     background-color:antiquewhite;
-    padding:5px; 
+    padding:10px; 
     width:auto;
     
 }
@@ -69,7 +73,7 @@ li:hover {
     background-color:whitesmoke;
     border-style: solid;
     border-color: black;
-    padding: 5px;
+    padding: 10px;
 }
 .linkMain {
     
